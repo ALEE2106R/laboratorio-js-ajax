@@ -1,0 +1,3 @@
+Laboratorio de JavaScript y AJAX
+Esta respuesta fue descargada de forma asíncrona desde el servidor.
+La página no se recargó durante la petición.

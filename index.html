@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Laboratorio | JavaScript y AJAX</title>
+<link rel="stylesheet" href="estilos.css"><script defer src="logica.js"></script><script defer src="app.js"></script></head>
+<body>
+<header><div class="eyebrow">Desarrollo de Aplicaciones en Red</div>
+<h1>Laboratorio de JavaScript y AJAX</h1>
+<p>Cuatro ejercicios de lógica y un visor de respuestas HTTP. Escribe, ejecuta y observa cómo cambia la página sin recargarla.</p>
+<nav aria-label="Ejercicios"><a href="#palindromos">Palíndromos</a><a href="#mayor">Número mayor</a><a href="#vocales">Vocales</a><a href="#ajax">Peticiones AJAX</a></nav></header>
+<main><div class="grid">
+<section id="palindromos"><h2>01 · ¿Es un palíndromo?</h2>
+<p class="nota">Se ignoran espacios, signos, mayúsculas y tildes de vocales. La ñ se conserva.</p>
+<form id="palForm" novalidate><label for="palTexto">Palabra o frase</label><input id="palTexto" placeholder="Anita lava la tina"><button>Verificar</button></form>
+<div id="palResultado" class="resultado" role="status">Aquí aparecerá el resultado.</div></section>
+<section id="mayor"><h2>02 · Comparar dos números</h2><p class="nota">Admite cero, negativos y decimales. También detecta la igualdad.</p>
+<form id="mayorForm" novalidate><label for="numero1">Primer número</label><input id="numero1" type="number" step="any"><label for="numero2">Segundo número</label><input id="numero2" type="number" step="any"><button>Comparar</button></form>
+<div id="mayorResultado" class="resultado" role="status">Aquí aparecerá el resultado.</div></section>
+<section id="vocales" class="wide"><h2>03 y 04 · Detectar y contar vocales</h2><p class="nota">Las vocales acentuadas cuentan en su vocal base; ü cuenta como u. Se muestran también los conteos de cero.</p>
+<form id="vocalesForm" novalidate><label for="frase">Frase</label><input id="frase" placeholder="La educación transforma"><button>Analizar vocales</button></form>
+<div id="vocalesResultado" class="resultado" role="status">Aquí aparecerán las vocales presentes.</div><div id="conteoResultado" class="resultado" role="status">a: 0   |   e: 0   |   i: 0   |   o: 0   |   u: 0</div></section>
+</div>
+<section id="ajax"><h2>05 · Visor AJAX</h2>
+<p>La dirección inicial corresponde a esta página. Puedes cargarla para ver su código HTML o probar <a href="respuesta.txt">respuesta.txt</a>.</p>
+<form id="ajaxForm" novalidate><label for="urlInput">URL del recurso (HTTP o HTTPS)</label><input id="urlInput" type="url"><button id="mostrarBtn">Mostrar Contenidos</button></form>
+<div class="ajax-grid"><div class="panel"><h3>Estados de la petición</h3><pre id="estado" role="status">0 - No iniciada</pre><details><summary>Ver historial de estados</summary><pre id="historial">0 - No iniciada</pre></details></div>
+<div class="panel"><h3>Código de estado</h3><pre id="codigoEstado">-</pre></div>
+<div class="panel wide"><h3>Cabeceras HTTP de la respuesta del servidor</h3><pre id="cabeceras">Todavía no se ha recibido una respuesta.</pre></div>
+<div class="panel wide"><h3>Contenidos</h3><pre id="contenido">El contenido descargado aparecerá aquí como texto.</pre></div></div>
+<p class="nota">Para AJAX abre la página desde un servidor HTTP, no mediante file://. Los sitios externos deben permitir CORS. Se muestran las cabeceras que el navegador permite leer; Set-Cookie no está disponible. El HTML descargado se muestra como texto y no se ejecuta.</p>
+</section><footer>HTML + CSS + JavaScript · Sin dependencias externas · Peticiones asíncronas con XMLHttpRequest</footer></main></body></html>

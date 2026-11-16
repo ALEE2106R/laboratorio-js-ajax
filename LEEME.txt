@@ -1,0 +1,12 @@
+LABORATORIO. TECNOLOGÍAS JAVASCRIPT Y AJAX
+
+Repositorio: https://github.com/ALEE2106R/laboratorio-js-ajax
+Dirección prevista de GitHub Pages (requiere publicación): https://alee2106r.github.io/laboratorio-js-ajax/
+
+EJECUCIÓN LOCAL
+Con Python 3, abrir iniciar_windows.bat y navegar a http://localhost:8000. Alternativa: Live Server de VS Code.
+
+PRUEBAS
+Verificar Anita lava la tina; comparar -8 y -2; analizar La educación. En AJAX, cargar la URL inicial o la URL completa del sitio seguida de respuesta.txt.
+
+Las solicitudes externas están sujetas a CORS. Se muestran todas las cabeceras accesibles al navegador.

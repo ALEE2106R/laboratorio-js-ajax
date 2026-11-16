@@ -1,0 +1,6 @@
+15-11-2026. Prueba interactiva en Chrome.
+Vista previa: Anita lava la tina = palíndromo; -8 y -2 = -2; La educación = a:2,e:1,i:1,o:1,u:1.
+AJAX vista previa: propia página 200 OK, HTML y cabeceras visibles.
+Sitio público: URL inicial automática; propia página 200 sin texto de estado; cuerpo HTML y cabeceras accesibles visibles.
+Errores de red y timeout: comprobación con eventos simulados.
+Sitio público respuesta.txt: 200, texto descargado, cabeceras visibles e historial 0,1,2,3,4.

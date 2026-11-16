@@ -1,0 +1,44 @@
+[
+  {
+    "ruta": "/",
+    "codigo": 200,
+    "texto": "OK",
+    "tipo": "text/html",
+    "bytes": 3689
+  },
+  {
+    "ruta": "/logica.js",
+    "codigo": 200,
+    "texto": "OK",
+    "tipo": "text/javascript",
+    "bytes": 1754
+  },
+  {
+    "ruta": "/app.js",
+    "codigo": 200,
+    "texto": "OK",
+    "tipo": "text/javascript",
+    "bytes": 3484
+  },
+  {
+    "ruta": "/estilos.css",
+    "codigo": 200,
+    "texto": "OK",
+    "tipo": "text/css",
+    "bytes": 1945
+  },
+  {
+    "ruta": "/respuesta.txt",
+    "codigo": 200,
+    "texto": "OK",
+    "tipo": "text/plain",
+    "bytes": 150
+  },
+  {
+    "ruta": "/no-existe.txt",
+    "codigo": 404,
+    "texto": "File not found",
+    "tipo": "text/html;charset=utf-8",
+    "bytes": 335
+  }
+]

@@ -1,0 +1,15 @@
+[
+  "AJAX 1: URL inicial — OK",
+  "JS 1: formulario de palíndromo — OK",
+  "JS 2: formulario de comparación — OK",
+  "JS 3 y 4: formulario de vocales — OK",
+  "AJAX 2: cuerpo íntegro como texto — OK",
+  "AJAX 3: historial 0 a 4 — OK",
+  "AJAX 4: cabeceras íntegras como texto — OK",
+  "AJAX 5: código y texto HTTP — OK",
+  "Respuesta HTTP 404 conserva el cuerpo — OK",
+  "Error de red controlado — OK",
+  "Timeout controlado — OK",
+  "Botón habilitado tras finalizar — OK",
+  "URL no HTTP rechazada sin enviar — OK"
+]

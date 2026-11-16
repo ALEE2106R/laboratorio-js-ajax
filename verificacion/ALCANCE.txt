@@ -1,0 +1,1 @@
+Las pruebas de funciones y eventos simulados se complementan con la ejecución interactiva descrita en NAVEGADOR.txt. Los errores de red y timeout se verificaron mediante simulación.
